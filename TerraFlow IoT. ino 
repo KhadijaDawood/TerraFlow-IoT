@@ -15,7 +15,7 @@ void setup() {
   pinMode(RELAY_PIN, OUTPUT);
   digitalWrite(RELAY_PIN, LOW); // Keep pump OFF at system boot
   
-  Serial.begin(9600);
+  Serial.begin(9600);  
 }
 
 void loop() {
