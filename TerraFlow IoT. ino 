@@ -21,7 +21,7 @@ void setup() {
 void loop() {
   int moistureRawValue = analogRead(MOISTURE_PIN); // Read sensor data
   
-  Serial.print("Soil Moisture Level: ");
+  Serial.print("Soil Moisture Level: "); 
   Serial.println(moistureRawValue);
 
   // Automated Pump Logic
